@@ -7,7 +7,7 @@ class SecretWord:
 
     def __init__(self):
 
-        with open("/Users/aaroncalahorra/Documents/cse210-01/jumper/game/words.txt", "r") as f:
+        with open("words.txt", "r") as f:
             words_list = []
 
             for line in f:
